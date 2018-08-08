@@ -23,8 +23,11 @@ Or install it yourself as:
 ## Usage
 ### Validate address:
 
-* BTC address
-rbcrypto validate address -b/--btc
-
-* ETH address
-rbcrypto validate address -e/--eth
+* BTC address:
+```
+  rbcrypto validate address -b/--btc
+```
+* ETH address:
+```
+  rbcrypto validate address -e/--eth
+```

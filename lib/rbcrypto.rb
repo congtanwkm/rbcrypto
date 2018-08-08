@@ -15,7 +15,7 @@ module Rbcrypto
     desc "validate [address] --eth(-e) \n validate [address] --btc(-b)", "validate address eth/btc"
     method_option :eth, aliases: %w'-e -ee', type: :boolean
     method_option :btc, aliases: '-b', type: :boolean
-    def validate_eth(address)
+    def validate(address)
       if options.eth?
         puts Eth::Utils.valid_address?(address)
       else

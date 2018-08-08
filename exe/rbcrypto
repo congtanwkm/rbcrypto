@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
 require "rbcrypto"
+Rbcrypto::Test.start(ARGV)
